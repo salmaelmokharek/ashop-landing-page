@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Parkinsans", sans-serif;
+    box-sizing: border-box;
+}
+
+.top {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    top: 0;
+}
+
+.top a {
+    color: white;
+    text-decoration: underline;
+}
+
+nav {
+    display: inline;
+    width: 100%;
+    padding: 20px;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 30px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.search-bar input {
+    width: 350px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(236, 234, 234);
+}
+
+.search {
+    height: 35px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: gainsboro;
+}
+
+.icons {
+    margin: 20px;
+}
+
+.icons a {
+    padding: 20px;
+}
+
+.hero {
+    background-image: url('/assets/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.hero-text {
+    display: block;
+    padding: 50px;
+    width: 50%;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 0.8;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.bio {
+    font-weight: lighter;
+    font-style: italic;
+    color: gray;
+    margin: 20px;
+}
+
+.shop-now {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+.numbers {
+    margin: 30px;
+}
+
+.numbers ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+li>span {
+    display: inline-block;
+    color: gray;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.brands {
+    bottom: 0;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px;
+    width: 100%;
+}
+
+.brands>img {
+    max-width: auto;
+    height: auto;
+
+}
+
+section {
+    margin: 30px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+
+.card {
+    display: block;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 10px 0 10px 0;
+}
+
+.des {
+    font-size: 14px;
+    color: gray;
+    padding: 0px 0 10px 0;
+
+}
+
+.card-fo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-fo>strong {
+    font-size: 20px;
+}
+
+.card-btn {
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.view-all {
+    text-align: center;
+}
+
+.view-all>button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+hr {
+    color: rgb(194, 194, 194);
+    margin: 30px;
+}
+
+#styles {
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.row2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.item>img {
+    width: 100%;
+    height: 100%;
+}
+
+.item>span {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.news-p {
+    font-size: 35px;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: capitalize;
+}
+
+form {
+    display: block;
+}
+
+form>input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+form>button {
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+footer {
+    background-color: gainsboro;
+    height: auto;
+    padding: 20px;
+
+}
+
+.footer-t {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.footer-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul {
+    list-style: none;
+}
+
+.social-media a {
+    padding: 15px;
+}
+
+.col {
+    line-height: 1.8;
+}
+
+footer a {
+    color: gray;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.copyright {
+    color: gray;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+
+    .hero-text {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 35px;
+        margin: 10px;
+    }
+
+    .shop-now {
+        width: 100%;
+
+    }
+
+    .numbers {
+        margin: 20px;
+    }
+
+    .numbers ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .brands {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px 0;
+
+    }
+
+    .brands>img {
+        width: 100px;
+        height: auto;
+
+    }
+
+    h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    .item>span {
+        font-size: 16px;
+    }
+
+    #newsletter {
+        flex-wrap: wrap;
+    }
+
+    .footer-t {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 30px;
+    }
+
+    .footer-b {
+        display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    nav {
+        padding: 15px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        position: static;
+    }
+
+    .nav-link {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .search-bar input {
+        width: 100%;
+        height: 35px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .search-bar {
+        display: flex;
+        gap: 10px;
+        padding: 10px;
+    }
+}
